@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+
+    font-family: sans-serif;
+    background-color: #f8bfe5;
+    color: #000000;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 25px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .Titel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .Titel input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border:2px solid #000000 ;
+    border-radius: 4px;
+  }
+  
+  .Titel button {
+    padding: 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    width: 50px;
+    align-self: center;
+    border-radius: 8px;
+    font-size: 20px;
+  }
+  
+  .notes-list li {
+    padding: 10px;
+    background-color: #ed9dca;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #List h2 {
+    margin: 0;
+    font-size: 18px;
+    font-size: larger;
+  }
+
+  #List p {
+    margin: 0;
+    font-size: 14px;
+    color: #000000;
+  }
+
+  #List li button:last-child {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+  }
+  
